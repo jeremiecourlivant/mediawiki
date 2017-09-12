@@ -101,7 +101,7 @@ $wgDefaultSkin = "vector";
 # wfLoadExtensions('ExtensionName');
 # to LocalSettings.php. Check specific extension documentation for more details.
 # The following extensions were automatically enabled:
-require_once("$IP/extensions/CASAuth/CASAuth.php");
+#require_once("$IP/extensions/CASAuth/CASAuth.php");
 //You can optionally use this if you want to keep your own configuration settings in LocalSettings.php instead of in CASAuth.php
 //Parameters not specified here will use the default setting in CASAuth.php
 $CASAuth = array_merge($CASAuth, array(
