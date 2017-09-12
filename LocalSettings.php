@@ -96,7 +96,7 @@ $wgGroupPermissions['*']['edit'] = false;
 $wgDefaultSkin = "vector";
 # Enabled skins.
 # The following skins were automatically enabled:
-wfLoadSkin( 'Vector' );
+# wfLoadSkin( 'Vector' );
 # Enabled extensions. Most of the extensions are enabled by adding
 # wfLoadExtensions('ExtensionName');
 # to LocalSettings.php. Check specific extension documentation for more details.
