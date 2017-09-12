@@ -118,7 +118,7 @@ $CASAuth = array_merge($CASAuth, array(
 // $wgShowSQLErrors = true;
 // $wgDebugDumpSql  = true;
 // $wgShowDBErrorBacktrace = true;
-require_once "$IP/extensions/googleAnalytics/googleAnalytics.php";
+#require_once "$IP/extensions/googleAnalytics/googleAnalytics.php";
 // Replace xxxxxxx-x with YOUR GoogleAnalytics UA number
 $wgGoogleAnalyticsAccount = getenv("GOOGLE_ANALYTICS_UA");
 // Add HTML code for any additional web analytics (can be used alone or with $wgGoogleAnalyticsAccount)
